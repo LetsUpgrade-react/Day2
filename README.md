@@ -1,3 +1,12 @@
+<h1>Output<h1>
+  
+  ![image](https://user-images.githubusercontent.com/45985801/125647981-8d6ff9ae-fb06-400e-8633-0bc7c7891ec5.png)
+
+ ## The score will not exceed 25. If the score reacher 25 means it will show exceed msg in display
+  
+  ![image](https://user-images.githubusercontent.com/45985801/125648233-dc77302c-dca5-486c-9c11-5cd6b9aed2c5.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
