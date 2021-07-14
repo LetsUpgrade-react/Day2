@@ -4,7 +4,8 @@
 
  ## The score will not exceed 25. If the score reacher 25 means it will show exceed msg in display
   
-  ![image](https://user-images.githubusercontent.com/45985801/125648233-dc77302c-dca5-486c-9c11-5cd6b9aed2c5.png)
+  ![image](https://user-images.githubusercontent.com/45985801/125648458-b75f92be-84cf-4658-a394-e30ae1620860.png)
+
 
 
 # Getting Started with Create React App
