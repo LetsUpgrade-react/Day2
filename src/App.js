@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React,{useState} from 'react';
+import './style.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const Main =()=>{
+    let [score, setScore] = useState(0)
+    let [result,setResult]= useState("")
+    return (
+        <div>
+            <h1 style={{textAlign:'center',color:'white'}}>
+            Hey this is my Counter Application
+            </h1>
+            <p style={{textAlign:'center',color:'white',fontFamily:'Lucida Console'}}>
+                Welcome to React Js Development Program!.
+            </p>
+            <h3 style={{textAlign:'center',color:'white',fontFamily:'Lucida Console'}}>Day 1 Assignment</h3>
+            <div style={{
+                          display: "flex",
+                          justifyContent: "center",
+                          alignItems: "center"
+            }}>
+                <button ></button>
+            <button  class="btn-grad" onClick={()=>(score <25)?setScore(score+1):setResult("your score exceed 25")}> Increment </button>
+             <button class="btn-grad" onClick={()=>(score>0 && score<=25)? setScore(score-1) : setResult("")}> Decrement </button>
+             <button class="btn-grad" onClick={()=>{setScore(0)}}> Reset </button>
+            </div>
+            <h3 style={{textAlign:'center',color:'white',fontFamily:'Lucida Console'}}>The value of score is {score}</h3>
+            <h3 style={{color:'white',fontFamily:'Lucida Console'}}>{result}</h3>
+            
+            
+
+           
+        </div>
+
+    )
 }
-
-export default App;
+export default Main
