@@ -7,12 +7,12 @@ const Main =()=>{
     return (
         <div>
             <h1 style={{textAlign:'center',color:'white'}}>
-            Hey this is my Counter Application
+            Lets Upgrade Counter Application Assingment
             </h1>
             <p style={{textAlign:'center',color:'white',fontFamily:'Lucida Console'}}>
                 Welcome to React Js Development Program!.
             </p>
-            <h3 style={{textAlign:'center',color:'white',fontFamily:'Lucida Console'}}>Day 1 Assignment</h3>
+            <h3 style={{textAlign:'center',color:'white',fontFamily:'Lucida Console'}}>Day 2 Assignment</h3>
             <div style={{
                           display: "flex",
                           justifyContent: "center",
